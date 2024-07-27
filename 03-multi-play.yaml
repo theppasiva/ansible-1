@@ -5,9 +5,10 @@
   - name: PLAY-1 and TASK-1
     ansible.builtin.debug:
       msg: "Hello from PLAY-1 and TASK-1"
-  - name: PLAT-2
-    hosts:
-    tasks:
-    - name: PLAY-2 and TASK-2
-      ansible.builtin.debug:
-        msg: "Hello from PLAY-2 and TASK-2"
+      
+- name: PLAY-2
+  hosts:
+  tasks:
+  - name: PLAY-2 and TASK-2
+    ansible.builtin.debug:
+      msg: "Hello from PLAY-2 and TASK-2"
