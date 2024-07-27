@@ -1,7 +1,7 @@
 # file level variables
 - name: variables from File level
   hosts: localhost
-  var-files:
+  vars_files:
   - variables.yaml
   tasks:
   - name: check variables
