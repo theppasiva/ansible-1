@@ -8,10 +8,10 @@
     - ansible
     - linux
     Experience: #Experience is map type
-    Devops: 7
-    Aws: 6
-    Docker: 4
-    Trainer: true # boolean
+      Devops: 7
+      Aws: 6
+      Docker: 4
+      Trainer: true # boolean
   tasks:
   - name: print key value pair
     ansible.builtin.debug:
